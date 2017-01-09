@@ -29,6 +29,10 @@ gem 'jbuilder',     '2.6.1'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+# Use devise for login
+gem 'devise',       '4.2.0'
+# Rails integration with bower
+gem 'bower-rails',  '0.11.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development

@@ -33,6 +33,8 @@ gem 'jbuilder',     '2.6.1'
 gem 'devise',       '4.2.0'
 # Rails integration with bower
 gem 'bower-rails',  '0.11.0'
+# Used to generate test data
+gem 'faker',        '1.7.3'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -40,6 +42,10 @@ gem 'bower-rails',  '0.11.0'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'pry',                '0.10.4'
+  gem 'rspec-rails',        '3.5.2'
+  gem 'capybara',           '2.12.1'
+  gem 'factory_girl_rails', '4.8.0'
 end
 
 group :development do
